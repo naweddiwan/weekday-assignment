@@ -1,0 +1,19 @@
+{
+  "name": "weekday-assignment",
+  "version": "1.0.0",
+  "description": "Weekday Coding Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "rm -r dist",
+    "build": "tsc --build --pretty",
+    "prestart": "npm run build",
+    "start": "node dist/index.js"
+  },
+  "author": "Nawed Diwan",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^17.0.4",
+    "datastructures-js": "^10.1.1"
+  }
+}
